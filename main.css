@@ -1,0 +1,89 @@
+section#imagenes-modal{
+    box-sizing: border-box;
+    text-align: center;
+    margin:0;
+    padding: 35px 3%;
+    width: 100%;
+    height: auto;
+    background:#567;
+
+}
+
+div.modal-reposo {
+    margin:0;
+    padding: 0;
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+    transition: all 0.1s;
+    display: inline-block;
+}
+
+div.modal-activo {
+    position: absolute;
+    left: 0;
+    z-index: 2000;
+    margin: 0;
+    padding: 100px 15%;
+    width: 70%;
+    overflow: hidden;
+    border-radius: 0;
+    background-color: rgba(0,0,0,0.6);
+    float: left;
+    
+}
+
+.info-modal-reposo img:hover {
+    border-radius: 90%;
+    /*background-color:transparent,#875a96;*/
+}
+
+div.info-modal-reposo img {
+    margin: 0;
+    padding: 7px;
+    width: 250px;
+    border-radius: 0;
+    height: auto;
+    
+}
+
+div.info-modal-reposo h1,div.info-modal-reposo p{
+    display: none;
+}
+div.info-modal-activo {
+    margin: 0 auto;
+    padding: 30px;
+    width: 80%;
+    height: auto;
+    border-radius: 0;
+    background: rgba(210, 248, 74, 0.37);
+    
+
+}
+div.info-modal-activo p.alin {
+    float: right;
+    cursor: pointer;
+}
+
+div.info-modal-activo p.alin span {
+    font-size: 2em;
+    color: #333;
+    margin: 0;
+    padding: 0 10px 2.5px 10px;
+    width: 15px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+div.info-modal-activo p.alin span:hover {
+    background-color: #a00;
+    color: #eee;
+}
+
+div.info-modal-activo img {
+    
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    height: auto;
+}
